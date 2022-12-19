@@ -1,3 +1,7 @@
+.body {
+    background-color: #fafafa;
+}
+
 .logo img {
     height: 2.2em;
 }
@@ -127,6 +131,7 @@
 .getQuote {
     margin-top: -5em;
     position: relative;
+    background-color: #fafafa;
 
 }
 
@@ -161,7 +166,9 @@
 
 
 /* payment-carousel style start*/
-
+.payment {
+    background-color: #fafafa;
+}
 .slick-slide {
     margin: 0px 20px;
 }
@@ -213,10 +220,73 @@
 }
 
 
+
+/* services style start */
 .services {
-    margin-top: 10em;
+    padding-top: 10em;
+    background-color: #fafafa;
 }
 
+
+.services .containers {
+
+    margin: 120px auto 120px;
+
+    padding: 0 20px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+.services-img {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    top: -60px;
+    box-shadow: 0 0 0 13px #f0f0f0;
+    -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+    -moz-box-shadow: 0 0 0 13px #f0f0f0;
+}
+
+.services-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 100px;
+
+}
+
+
+
+.services h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.services h4 {
+    font-size: 13px;
+    color: #00baff;
+    letter-spacing: 1px;
+    margin-bottom: 25px
+}
+
+.services p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #666;
+}
 
 
 
