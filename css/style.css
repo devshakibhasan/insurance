@@ -54,7 +54,7 @@
 /* navbar style end */
 
 .homeBanner {
-    height: 40em;
+    height: 45em;
     width: 100% 100%;
     background-image: url(../images/homeBanner.png);
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@
     }
 
     .homeBanner {
-        height: 40em;
+       
         width: 100% 100%;
         background-image: url(../images/homeBanner.png);
         background-repeat: no-repeat;
