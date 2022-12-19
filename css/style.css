@@ -2,6 +2,11 @@
     height: 2.2em;
 }
 
+.navbar {
+    padding: 1em 4em 1em 4em;
+
+}
+
 .nav-item {
     padding-right: 5em;
     color: #3C6273;
@@ -44,4 +49,64 @@
     font-size: 12px;
     margin-top: 5px;
     margin-left: 7px;
+}
+
+/* navbar style end */
+
+.homeBanner {
+    height: 40em;
+    width: 100% 100%;
+    background-image: url(../images/homeBanner.png);
+    background-repeat: no-repeat;
+    border-radius: 1.5em;
+    margin: 0em 4em 0em 4em;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.homeBanner-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.homeBanner-text p {
+    color: #7F9CA8;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeBanner-text h1 {
+  
+    font-size: 3.5em;
+    color: #234656;
+   
+}
+.homeBanner-text h1 span{
+   
+    color: #1FA888;
+}
+
+.homeBanner-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #0A384C;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .7em;
+}
+
+.homeBanner-text button:hover {
+    background-color: #1FA888;
+    color: white;
 }
