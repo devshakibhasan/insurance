@@ -129,6 +129,15 @@
     position: relative;
 
 }
+.getQuote label{
+    padding-left: .8em;
+
+}
+.getQuote input{
+    border: none !important;
+    background-color: transparent !important;
+
+}
 
 .getQuote button {
     border: none;
