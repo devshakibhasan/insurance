@@ -122,3 +122,56 @@
     background-color: #1FA888;
     color: white;
 }
+
+
+
+@media (max-width: 970px) {
+    
+.navbar {
+    padding: 1em 0em 1em 0em;
+
+}
+    
+.homeBanner {
+    height: 40em;
+    width: 100% 100%;
+    background-image: url(../images/homeBanner.png);
+    background-repeat: no-repeat;
+    border-radius: 1.5em;
+    margin: 0em 0em 0em 0em;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+
+}
+
+
+
+@media (max-width: 1328px) {
+    
+   
+        .homeBanner-text {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    
+        .homeBanner-text h1 {
+    
+            font-size: 2.5em;
+            color: #234656;
+    
+        }
+    }
+    
+@media (min-width: 768px) {
+    .booking {
+        position: relative;
+        margin-top: 660px !important;
+        z-index: 1;
+    }
+}
