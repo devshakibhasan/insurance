@@ -1,0 +1,47 @@
+.logo img {
+    height: 2.2em;
+}
+
+.nav-item {
+    padding-right: 5em;
+    color: #3C6273;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #4F7485 !important;
+}
+
+.nav-item .nav-link {
+    color: #7F9CA8 !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #4F7485 !important;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    color: #3C6273;
+    font-weight: 500;
+}
+
+.nav-link.quote:hover {
+    display: flex;
+    align-items: center;
+    color: #2594c7;
+    font-weight: 500;
+}
+
+.quote span {
+    text-decoration: underline #3C6273;
+    text-underline-offset: .3em;
+    color: #3C6273;
+}
+
+.quote i {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
