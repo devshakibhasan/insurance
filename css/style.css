@@ -75,6 +75,28 @@
     color: white;
 }
 
+.homeBanner-text .slug {
+    color: #7F9CA8;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeBanner-text h1 {
+
+    font-size: 3.5em;
+    color: #234656;
+
+}
+
+.homeBanner-text h1 span {
+
+    color: #1FA888;
+}
+
+
 .homeBanner-text p {
     color: #7F9CA8;
     font-size: 1.5em;
@@ -82,16 +104,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.homeBanner-text h1 {
-  
-    font-size: 3.5em;
-    color: #234656;
-   
-}
-.homeBanner-text h1 span{
-   
-    color: #1FA888;
 }
 
 .homeBanner-text button {
